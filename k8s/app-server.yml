@@ -7,7 +7,7 @@ metadata:
 spec:
   containers:
   - name: app-server
-    image: shankysai/appserver:latest #manual change hetre
+    image: iammithran/appserver:latest #manual change here
     ports:
     - containerPort: 80
 ---

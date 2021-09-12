@@ -3,7 +3,7 @@ services:
 - docker
 env:
   global:
-  - docker_registry_name:  shankysai  # change here
+  - docker_registry_name:  iammithran  # change here
 before_install:
 - curl -O https://releases.hashicorp.com/terraform/0.12.18/terraform_0.12.18_linux_amd64.zip
 - sudo unzip terraform_0.12.18_linux_amd64.zip -d /usr/local/bin/
